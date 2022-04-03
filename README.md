@@ -1,5 +1,7 @@
 # Provision kubernetes as k3s cluster in Hetzner using kube-hetzner terraform module
 
+*Source: https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner*
+
 ## Setup servers
 
 Please create the local config file with variables:
