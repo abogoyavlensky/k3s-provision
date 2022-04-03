@@ -36,8 +36,8 @@ module "kube-hetzner" {
   agent_nodepools = [
     {
       name        = "worker",
-      server_type = "cpx11",
-      count       = 2
+      server_type = "cx21",
+      count       = 1
     }
   ]
   load_balancer_type                = "lb11"
