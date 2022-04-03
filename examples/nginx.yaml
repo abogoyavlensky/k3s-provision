@@ -31,6 +31,8 @@ spec:
   selector:
     run: nginx
 
+# FQDN bettween pods: http://nginx-service.default.svc.cluster.local
+
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
