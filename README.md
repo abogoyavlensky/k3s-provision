@@ -4,7 +4,7 @@
 
 ## Setup servers
 
-Please create the local config file with variables:
+Please create the local config file with actual variables by copying `env.auto.tfvars.example`:
 
 *env.auto.tfvars*
 
