@@ -44,3 +44,9 @@ mc alias set yc https://storage.yandexcloud.net <access_key> <secret_key>
 ```shell
 mc cp terraform.tfstate yc/k3s-terraform/terraform.tfstate
 ```
+
+## Run example nginx service
+
+```shell
+kubectl apply -f example/nginx.yaml
+```
