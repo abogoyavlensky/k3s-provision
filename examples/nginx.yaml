@@ -44,9 +44,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - nginx.bogoyavlensky.com
+        - your.domain.com
   rules:
-    - host: nginx.bogoyavlensky.com
+    - host: your.domain.com
       http:
         paths:
           - path: /
