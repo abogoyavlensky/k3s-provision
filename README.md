@@ -53,5 +53,6 @@ mc cp terraform.tfstate yc/k3s-terraform/terraform.tfstate
 ## Run example nginx service
 
 ```shell
+kubectl apply -f deploy/middlewares.yaml
 kubectl apply -f example/nginx.yaml
 ```
