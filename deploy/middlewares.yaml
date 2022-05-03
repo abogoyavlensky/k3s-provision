@@ -11,3 +11,4 @@ spec:
 # Sources: 
 # - https://itobey.dev/index.php/redirect-http-to-https-traefik-middleware-kubernetes/
 # - https://community.traefik.io/t/http-to-https-redirection-on-k8s-ingress/8702/7
+# - https://aqibrahman.com/set-up-traefik-kubernetes-ingress-for-http-and-https-with-redirect-to-https
