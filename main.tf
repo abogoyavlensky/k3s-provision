@@ -1,5 +1,3 @@
-// Config
-
 terraform {
   required_providers {
     hcloud = {
