@@ -1,0 +1,13 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: redirect-https
+  namespace: default
+spec:
+  redirectScheme:
+    scheme: https
+    permanent: true
+
+# Sources: 
+# - https://itobey.dev/index.php/redirect-http-to-https-traefik-middleware-kubernetes/
+# - https://community.traefik.io/t/http-to-https-redirection-on-k8s-ingress/8702/7

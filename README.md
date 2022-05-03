@@ -29,7 +29,7 @@ terraform apply
 Override config for kubectl:
 
 ```shell
-mv kubeconfig.yaml ~/.kube/config
+cp kubeconfig.yaml ~/.kube/config
 ```
 
 

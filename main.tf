@@ -26,17 +26,17 @@ module "kube-hetzner" {
   source  = "kube-hetzner/kube-hetzner/hcloud"
   version = "1.0.1"
 
-  hcloud_token              = var.hcloud_token
-  public_key                = "~/.ssh/id_ed25519.pub"
-  private_key               = null
-  load_balancer_type        = "lb11"
-  load_balancer_location    = "hel1"
-  network_region            = "eu-central"
-  allow_scheduling_on_control_plane = true
+  hcloud_token                      = var.hcloud_token
+  public_key                        = "~/.ssh/id_ed25519.pub"
+  private_key                       = null
+  load_balancer_type                = "lb11"
+  load_balancer_location            = "hel1"
+  network_region                    = "eu-central"
+  allow_scheduling_on_control_plane = false
   control_plane_nodepools = [
     {
       name        = "control",
-      server_type = "cx21",
+      server_type = "cpx11",
       location    = "hel1",
       labels      = [],
       taints      = [],
@@ -50,11 +50,11 @@ module "kube-hetzner" {
       location    = "hel1",
       labels      = [],
       taints      = [],
-      count       = 0
+      count       = 1
     }
   ]
-  traefik_acme_tls                  = true
-  traefik_acme_email                = var.traefik_acme_email
-  automatically_upgrade_k3s         = false
-  cluster_name                      = "k3s"
+  traefik_acme_tls          = true
+  traefik_acme_email        = var.traefik_acme_email
+  automatically_upgrade_k3s = false
+  cluster_name              = "k3s"
 }
