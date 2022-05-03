@@ -43,3 +43,4 @@ k0s.yaml
 k0sctl.yaml
 
 kubeconfig.yaml
+kustomization_backup.yaml

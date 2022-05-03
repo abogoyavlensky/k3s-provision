@@ -1,6 +1,11 @@
 # Provision kubernetes as k3s cluster in Hetzner using kube-hetzner terraform module
 
-*Source: https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner*
+*Terraform module source: https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner*
+
+Tools:
+- tf provider [hcloud]();
+- tf module [kube-hetzner](https://registry.terraform.io/modules/kube-hetzner/kube-hetzner/hcloud/latest);
+- kubenretes distribution [k3s](https://github.com/k3s-io/k3s).
 
 ## Setup servers
 
