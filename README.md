@@ -38,7 +38,7 @@ cp kubeconfig.yaml ~/.kube/config
 
 ```shell
 kubectl apply -f deploy/middlewares.yaml
-kubectl apply -f example/nginx.yaml
+kubectl apply -f examples/nginx.yaml
 ```
 
 
