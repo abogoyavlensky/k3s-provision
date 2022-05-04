@@ -10,6 +10,8 @@ Tools:
 
 ## Setup cluster
 
+First of all you need account on Hetzner Cloud with active [project space](https://docs.hetzner.com/cloud/general/faq/#what-are-projects-and-how-can-i-use-them)
+and [API token](https://docs.hetzner.com/cloud/api/getting-started/generating-api-token).
 Please create the local config file with actual variables by copying `env.auto.tfvars.example`:
 
 *env.auto.tfvars*
