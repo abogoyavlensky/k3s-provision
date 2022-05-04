@@ -42,7 +42,7 @@ kubectl apply -f example/nginx.yaml
 ```
 
 
-## Connect to S3
+## Connect to S3 (OPTIONAL)
 
 ### Setup mc (Minio cli) access to S3 service of choice
 
