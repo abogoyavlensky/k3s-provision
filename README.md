@@ -24,6 +24,7 @@ traefik_acme_email = "<some@email>"
 Deploy k3s cluster:
 
 ```shell
+terraform init
 terraform apply
 ```
 
